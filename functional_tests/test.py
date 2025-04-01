@@ -5,7 +5,7 @@ from django.contrib.staticfiles.testing import StaticLiveServerTestCase
 class TestBasicPovertyMap(StaticLiveServerTestCase):
 
     def setUp(self):
-        self.url = f"{self.live_server_url}/PA/schools/"
+        self.url = f"{self.live_server_url}/schools/PA"
         self.browser = Chrome()
         return super().setUp()
     
