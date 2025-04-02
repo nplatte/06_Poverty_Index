@@ -3,6 +3,8 @@ from django.urls import reverse
 from school_districts.models import StateMap
 
 class TestStateView(TestCase):
+    
+    fixtures = ["states"]
 
     def setUp(self):
         self.url = reverse("school_poverty_state_view")

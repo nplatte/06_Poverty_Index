@@ -1,0 +1,4 @@
+- model: school_districts.StateMap
+  pk: 1
+  fields:
+    state: "PA"
