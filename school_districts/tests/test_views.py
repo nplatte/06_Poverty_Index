@@ -1,5 +1,6 @@
 from django.test import TestCase
 from django.urls import reverse
+from school_districts.models import StateMap
 
 class TestStateView(TestCase):
 
@@ -16,4 +17,4 @@ class TestStateView(TestCase):
 
     def test_correct_context_passed(self):
         response = self.client.get(self.url)
-        self.assertIn("GeoData", response.context)
+        self.assertIsInstance(response.context["GeoData"], StateMap)
