@@ -20,3 +20,4 @@ class TestStateView(TestCase):
     def test_correct_context_passed(self):
         response = self.client.get(self.url)
         self.assertIsInstance(response.context["GeoData"], StateMap)
+        self.assertIsInstance(response.context["GeoData"].coords, str)
