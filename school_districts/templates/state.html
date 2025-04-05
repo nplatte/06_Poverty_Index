@@ -5,10 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>PA School District Poverty Map</title>
-    <link rel="stylesheet" href="style.css">
+    {% load static %}
+    <link rel="stylesheet" href="{% static 'school_districts/css/state.css' %}">
   </head>
   <body>
+    <h2 class="label">State Map</h2>
     <svg id="State-Map"></svg>
-    <script src="index.js"></script>
+    <script src="{% static 'school_districts/js/state.js' %}"></script>
   </body>
 </html>
