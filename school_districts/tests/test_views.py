@@ -25,6 +25,8 @@ class TestStateView(TestCase):
 
 class TestGETStateMap(TestCase):
 
+    fixtures = ["test_states"]
+
     def setUp(self):
         self.response = self.client.get(reverse("state_map"))
         return super().setUp()
@@ -39,4 +41,4 @@ class TestGETStateMap(TestCase):
         self.assertIsInstance(self.response, JsonResponse)
 
     def test_returns_data(self):
-        self.assertEqual(self.response.context["schools"], 2)
+        self.assertEqual(self.response.json()["schools"], 2)

@@ -8,5 +8,6 @@ def state_view(request):
     return render(request, "state.html", context)
 
 def state_map(request):
-    context = {}
+    state =  StateMap.objects.get(state="PA")
+    context = state.map
     return JsonResponse(context)

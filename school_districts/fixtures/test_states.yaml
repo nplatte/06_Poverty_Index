@@ -1,0 +1,5 @@
+- model: school_districts.statemap
+  pk: 1
+  fields:
+    state: PA
+    map: {"schools" : 2}
