@@ -1,8 +1,12 @@
 from selenium.webdriver import Chrome
 from selenium.webdriver.common.by import By
 from django.contrib.staticfiles.testing import StaticLiveServerTestCase
+from time import sleep
+from school_districts.models import StateMap
 
 class TestBasicPovertyMap(StaticLiveServerTestCase):
+
+    fixtures = ["states"]
 
     def setUp(self):
         self.url = f"{self.live_server_url}/schools/PA"
@@ -16,6 +20,7 @@ class TestBasicPovertyMap(StaticLiveServerTestCase):
         # navigate to the page
         response = self.browser.get(self.url)
         # check title
+        pa = StateMap.objects.get(state="PA")
         self.assertEqual(self.browser.title, "PA School District Poverty Map")
         # check that map exists
         self.browser.find_element(By.ID, "State-Map")
