@@ -1,17 +1,28 @@
+import { select } from 'https://esm.sh/d3-selection';
+import { geoPath, geoEquirectangular } from 'https://esm.sh/d3-geo';
 
 function displayMap(geoData) {
-    console.log(geoData)
+    var map = select("svg");
+    let projection = geoEquirectangular()
+        .scale(200)
+        .translate([200, 150]);
+
+    let geoGenerator = geoPath().projection(projection);
+
+    map.append("g")
+        .selectAll("path")
+        .data(geoData.geometries)
+        .enter().append("path")
+        .attr("d", geoGenerator)
 }
 
 function getMap() {
     var map = 0;
     fetch('/schools/PA/map')
         .then(response => {
-            if (!response.ok) {
-                console.log(response)
+            if (!response.ok) {  
                 throw new Error("bad")
             }
-            console.log(response)
             return response.json();
         })
         .then(data => {
