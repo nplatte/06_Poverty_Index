@@ -10,5 +10,4 @@ def state_view(request):
 def state_map(request):
     state =  StateMap.objects.get(state="PA")
     context = state.map
-    print(context)
     return JsonResponse(context)

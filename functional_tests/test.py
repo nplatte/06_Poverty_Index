@@ -23,5 +23,4 @@ class TestBasicPovertyMap(StaticLiveServerTestCase):
         pa = StateMap.objects.get(state="PA")
         self.assertEqual(self.browser.title, "PA School District Poverty Map")
         # check that map exists
-        sleep(30)
         self.browser.find_element(By.ID, "State-Map")
