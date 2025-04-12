@@ -3,16 +3,15 @@ import { geoPath, geoEquirectangular } from 'https://esm.sh/d3-geo';
 
 function displayMap(geoData) {
     var map = select("svg");
-    let projection = geoEquirectangular()
-        .scale(200)
-        .translate([200, 150]);
+
+    let projection = geoEquirectangular();
 
     let geoGenerator = geoPath().projection(projection);
 
     map.append("g")
         .selectAll("path")
         .data(geoData.geometries)
-        .enter().append("path")
+        .join("path")
         .attr("d", geoGenerator)
 }
 
