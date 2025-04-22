@@ -10,7 +10,13 @@
   </head>
   <body>
     <h2 class="label">State Map</h2>
-    <svg id="State-Map"></svg>
+    <div id="content">
+      <svg>
+        <g class="map">
+        </g>
+      </svg>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/@turf/turf@6/turf.min.js"></script>
     <script src="{% static 'school_districts/js/state.js' %}" type="module"></script>
   </body>
 </html>
