@@ -11,3 +11,7 @@ def state_map(request):
     state =  StateMap.objects.get(state="PA")
     context = state.map
     return JsonResponse(context)
+
+def upload_data_view(request):
+    context = {}
+    return render(request, "data.html", context)
