@@ -42,3 +42,14 @@ class TestGETStateMap(TestCase):
 
     def test_returns_data(self):
         self.assertEqual(self.response.json()["schools"], 2)
+
+
+class TestUploadData(TestCase):
+
+    def setUp(self):
+        self.url = reverse("add_state_data")
+
+    def test_GET_returns_200(self):
+        r = self.client.get(self.url)
+        self.assertEqual(r.status_code, 200)
+
