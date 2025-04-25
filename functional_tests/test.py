@@ -2,6 +2,7 @@ from selenium.webdriver import Chrome
 from selenium.webdriver.common.by import By
 from django.contrib.staticfiles.testing import StaticLiveServerTestCase
 from time import sleep
+from django.urls import reverse
 from school_districts.models import StateMap
 
 class TestBasicPovertyMap(StaticLiveServerTestCase):
@@ -9,7 +10,7 @@ class TestBasicPovertyMap(StaticLiveServerTestCase):
     fixtures = ["states"]
 
     def setUp(self):
-        self.url = f"{self.live_server_url}/schools/PA"
+        self.url = f"{self.live_server_url}{reverse('school_poverty_state_view')}"
         self.browser = Chrome()
         return super().setUp()
     
@@ -21,7 +22,25 @@ class TestBasicPovertyMap(StaticLiveServerTestCase):
         response = self.browser.get(self.url)
         # check title
         pa = StateMap.objects.get(state="PA")
-        self.assertEqual(self.browser.title, "PA School District Poverty Map")
+        self.assertEqual(self.browser.title, "PA State Map")
         # check that map exists
-        sleep(30)
         self.browser.find_element(By.ID, "State-Map")
+
+
+class TestUploadDataFile(StaticLiveServerTestCase):
+
+    def setUp(self):
+        self.url = f"{self.live_server_url}{reverse('add_state_data')}"
+        self.browser = Chrome()
+
+    def test_upload_data_file_to_server(self):
+        # Go to the site
+        self.response = self.browser.get(self.url)
+        # click the file upload button 
+        file_upload = self.browser.find_element(By.ID, "file-upload")
+        file_upload.send_keys("")
+        submit_btn = self.browser.find_element(By.ID, "submit-btn")
+        submit_btn.click()
+        # upload the file to the server
+        # the page redirects you to the map 
+        self.assertEqual(self.browser.title, "PA State Map")
