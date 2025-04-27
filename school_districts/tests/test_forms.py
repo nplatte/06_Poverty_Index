@@ -20,3 +20,7 @@ class TestDataUploadForm(TestCase):
     def test_requires_file(self):
         f = self.form({}, {})
         self.assertFalse(f.is_valid())
+
+    def test_form_attributes(self):
+        form_html = self.form().as_p()
+        self.assertIn('id="file-upload"', form_html)

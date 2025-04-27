@@ -1,0 +1,15 @@
+{% extends "base.html" %}
+
+
+{% block title %}
+  <title>Add State Data</title>
+{% endblock %}
+
+
+{% block body %}
+    <form method="post">
+        {% csrf_token %}
+        {{ form }}
+        <input type="submit" id="submit-btn">
+    </form>
+{% endblock %}   

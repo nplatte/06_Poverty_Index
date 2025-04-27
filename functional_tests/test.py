@@ -38,7 +38,7 @@ class TestUploadDataFile(StaticLiveServerTestCase):
         self.response = self.browser.get(self.url)
         # click the file upload button 
         file_upload = self.browser.find_element(By.ID, "file-upload")
-        file_upload.send_keys("")
+        file_upload.send_keys("E:\\04_projects\\01_Python\\06_Poverty_Index\\school_districts\\state_data\\ussd23.xls")
         submit_btn = self.browser.find_element(By.ID, "submit-btn")
         submit_btn.click()
         # upload the file to the server
