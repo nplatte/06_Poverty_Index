@@ -1,11 +1,11 @@
 from django.test import TestCase
-from school_districts.forms import DataUploadForm
+from school_districts.forms import DistrictDataUploadForm
 from django.core.files.uploadedfile import SimpleUploadedFile
 
 class TestDataUploadForm(TestCase):
 
     def setUp(self):
-        self.form = DataUploadForm
+        self.form = DistrictDataUploadForm
 
         path = "school_districts\\state_data\\ussd23.xls"
         ofile = open(path, 'rb')

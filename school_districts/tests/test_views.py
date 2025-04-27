@@ -2,6 +2,8 @@ from django.test import TestCase
 from django.urls import reverse
 from school_districts.models import StateMap
 from django .http import JsonResponse
+from school_districts.forms import DistrictDataUploadForm
+
 
 class TestStateView(TestCase):
     
@@ -22,6 +24,7 @@ class TestStateView(TestCase):
         response = self.client.get(self.url)
         self.assertIsInstance(response.context["GeoData"], StateMap)
         self.assertEqual(type(response.context["GeoData"].map), dict)
+
 
 class TestGETStateMap(TestCase):
 
@@ -52,4 +55,8 @@ class TestUploadData(TestCase):
     def test_GET_returns_200(self):
         r = self.client.get(self.url)
         self.assertEqual(r.status_code, 200)
+
+    def test_passes_corrrect_context(self):
+        context = self.client.get(self.url).context
+        self.assertIsInstance(context["form"], DistrictDataUploadForm)
 

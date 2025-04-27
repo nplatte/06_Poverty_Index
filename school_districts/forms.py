@@ -1,6 +1,6 @@
 from django import forms
 
 
-class DataUploadForm(forms.Form):
+class DistrictDataUploadForm(forms.Form):
 
     state_data = forms.FileField()
