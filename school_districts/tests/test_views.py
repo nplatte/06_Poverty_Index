@@ -3,6 +3,7 @@ from django.urls import reverse
 from school_districts.models import StateMap
 from django .http import JsonResponse
 from school_districts.forms import DistrictDataUploadForm
+from django.core.files.uploadedfile import SimpleUploadedFile
 
 
 class TestStateView(TestCase):
@@ -49,6 +50,8 @@ class TestGETStateMap(TestCase):
 
 class TestUploadData(TestCase):
 
+    fixtures = ["test_states"]
+
     def setUp(self):
         self.url = reverse("add_state_data")
 
@@ -60,3 +63,11 @@ class TestUploadData(TestCase):
         context = self.client.get(self.url).context
         self.assertIsInstance(context["form"], DistrictDataUploadForm)
 
+    def test_valid_POST_redirects_to_map_page(self):
+        path = "school_districts\\state_data\\ussd23.xls"
+        ofile = open(path, "rb")
+        file_data = {
+            'state_data': SimpleUploadedFile(ofile.name, ofile.read())
+        }
+        response = self.client.post(self.url, file_data)
+        self.assertRedirects(response, reverse("state_map"))

@@ -1,6 +1,7 @@
-from django.shortcuts import render
+from django.shortcuts import render, redirect
 from school_districts.models import StateMap
 from django.http import JsonResponse
+from django.urls import reverse
 from school_districts.forms import DistrictDataUploadForm
 
 def state_view(request):
@@ -15,4 +16,8 @@ def state_map(request):
 
 def upload_data_view(request):
     context = {"form": DistrictDataUploadForm()}
+    if request.method == "POST":
+        filled = DistrictDataUploadForm(request.POST, request.FILES)
+        if filled.is_valid():
+            return redirect(reverse("state_map"))
     return render(request, "data.html", context)
