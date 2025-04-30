@@ -19,5 +19,5 @@ def upload_data_view(request):
     if request.method == "POST":
         filled = DistrictDataUploadForm(request.POST, request.FILES)
         if filled.is_valid():
-            return redirect(reverse("state_map"))
+            return redirect(reverse("school_poverty_state_view"))
     return render(request, "data.html", context)

@@ -4,6 +4,7 @@ from django.contrib.staticfiles.testing import StaticLiveServerTestCase
 from time import sleep
 from django.urls import reverse
 from school_districts.models import StateMap
+from os import getcwd
 
 class TestBasicPovertyMap(StaticLiveServerTestCase):
 
@@ -29,6 +30,8 @@ class TestBasicPovertyMap(StaticLiveServerTestCase):
 
 class TestUploadDataFile(StaticLiveServerTestCase):
 
+    fixtures = ["states"]
+
     def setUp(self):
         self.url = f"{self.live_server_url}{reverse('add_state_data')}"
         self.browser = Chrome()
@@ -38,9 +41,10 @@ class TestUploadDataFile(StaticLiveServerTestCase):
         self.response = self.browser.get(self.url)
         # click the file upload button 
         file_upload = self.browser.find_element(By.ID, "file-upload")
-        file_upload.send_keys("E:\\04_projects\\01_Python\\06_Poverty_Index\\school_districts\\state_data\\ussd23.xls")
+        file_upload.send_keys(f"{getcwd()}\\school_districts\\state_data\\ussd23.xls")
         submit_btn = self.browser.find_element(By.ID, "submit-btn")
         submit_btn.click()
+        sleep(1)
         # upload the file to the server
         # the page redirects you to the map 
         self.assertEqual(self.browser.title, "PA State Map")
