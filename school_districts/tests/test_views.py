@@ -70,4 +70,4 @@ class TestUploadData(TestCase):
             'state_data': SimpleUploadedFile(ofile.name, ofile.read())
         }
         response = self.client.post(self.url, file_data)
-        self.assertRedirects(response, reverse("state_map"))
+        self.assertRedirects(response, reverse("school_poverty_state_view"))
