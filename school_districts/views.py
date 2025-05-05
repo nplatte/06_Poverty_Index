@@ -1,8 +1,9 @@
 from django.shortcuts import render, redirect
-from school_districts.models import StateMap
+from school_districts.models import StateMap, SchoolDistrict
 from django.http import JsonResponse
 from django.urls import reverse
 from school_districts.forms import DistrictDataUploadForm
+import pandas as pd
 
 def state_view(request):
     context = {}
@@ -19,5 +20,17 @@ def upload_data_view(request):
     if request.method == "POST":
         filled = DistrictDataUploadForm(request.POST, request.FILES)
         if filled.is_valid():
+            map_file_to_model(request.FILES["state_data"])
             return redirect(reverse("school_poverty_state_view"))
     return render(request, "data.html", context)
+
+def map_file_to_model(file_data):
+    data = pd.read_excel(file_data)
+    for i, row in data[2:].iterrows():
+        new = SchoolDistrict.objects.create(
+            state=row["Table with column headers in row 3"],
+            school_district=row["Unnamed: 3"],
+            total_pop=row["Unnamed: 5"],
+            poverty_pop=row["Unnamed: 6"]
+        )
+        new.save()

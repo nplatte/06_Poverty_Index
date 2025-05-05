@@ -1,6 +1,6 @@
 from django.test import TestCase
 from django.urls import reverse
-from school_districts.models import StateMap
+from school_districts.models import StateMap, SchoolDistrict
 from django .http import JsonResponse
 from school_districts.forms import DistrictDataUploadForm
 from django.core.files.uploadedfile import SimpleUploadedFile
@@ -54,6 +54,7 @@ class TestUploadData(TestCase):
 
     def setUp(self):
         self.url = reverse("add_state_data")
+        self.path = "school_districts\\state_data\\PAPovertyData.xlsx"
 
     def test_GET_returns_200(self):
         r = self.client.get(self.url)
@@ -64,10 +65,19 @@ class TestUploadData(TestCase):
         self.assertIsInstance(context["form"], DistrictDataUploadForm)
 
     def test_valid_POST_redirects_to_map_page(self):
-        path = "school_districts\\state_data\\ussd23.xls"
-        ofile = open(path, "rb")
+        
+        ofile = open(self.path, "rb")
         file_data = {
             'state_data': SimpleUploadedFile(ofile.name, ofile.read())
         }
         response = self.client.post(self.url, file_data)
         self.assertRedirects(response, reverse("school_poverty_state_view"))
+
+    def test_valid_POST_makes_StateMap(self):
+        old_count = SchoolDistrict.objects.count()
+        ofile = open(self.path, "rb")
+        file_data = {
+            'state_data': SimpleUploadedFile(ofile.name, ofile.read())
+        }
+        self.client.post(self.url, file_data)
+        self.assertGreater(SchoolDistrict.objects.count(), old_count)
