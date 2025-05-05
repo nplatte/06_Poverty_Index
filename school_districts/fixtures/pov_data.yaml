@@ -1,0 +1,2626 @@
+
+- model: school_districts.schooldistrict
+  pk: 1
+  fields:
+    state: PA
+    school_district: Abington Heights School District
+    total_pop: 4168
+    poverty_pop: 260
+- model: school_districts.schooldistrict
+  pk: 2
+  fields:
+    state: PA
+    school_district: Abington School District
+    total_pop: 10173
+    poverty_pop: 671
+- model: school_districts.schooldistrict
+  pk: 3
+  fields:
+    state: PA
+    school_district: Albert Gallatin Area School District
+    total_pop: 3379
+    poverty_pop: 750
+- model: school_districts.schooldistrict
+  pk: 4
+  fields:
+    state: PA
+    school_district: Aliquippa School District
+    total_pop: 1311
+    poverty_pop: 354
+- model: school_districts.schooldistrict
+  pk: 5
+  fields:
+    state: PA
+    school_district: Allegheny Valley School District
+    total_pop: 1046
+    poverty_pop: 121
+- model: school_districts.schooldistrict
+  pk: 6
+  fields:
+    state: PA
+    school_district: Allegheny-Clarion Valley School District
+    total_pop: 769
+    poverty_pop: 106
+- model: school_districts.schooldistrict
+  pk: 7
+  fields:
+    state: PA
+    school_district: Allentown City School District
+    total_pop: 21736
+    poverty_pop: 6492
+- model: school_districts.schooldistrict
+  pk: 8
+  fields:
+    state: PA
+    school_district: Altoona Area School District
+    total_pop: 8323
+    poverty_pop: 1978
+- model: school_districts.schooldistrict
+  pk: 9
+  fields:
+    state: PA
+    school_district: Ambridge Area School District
+    total_pop: 2952
+    poverty_pop: 393
+- model: school_districts.schooldistrict
+  pk: 10
+  fields:
+    state: PA
+    school_district: Annville-Cleona School District
+    total_pop: 1915
+    poverty_pop: 143
+- model: school_districts.schooldistrict
+  pk: 11
+  fields:
+    state: PA
+    school_district: Antietam School District
+    total_pop: 1316
+    poverty_pop: 152
+- model: school_districts.schooldistrict
+  pk: 12
+  fields:
+    state: PA
+    school_district: Apollo-Ridge School District
+    total_pop: 1358
+    poverty_pop: 188
+- model: school_districts.schooldistrict
+  pk: 13
+  fields:
+    state: PA
+    school_district: Armstrong School District
+    total_pop: 5968
+    poverty_pop: 986
+- model: school_districts.schooldistrict
+  pk: 14
+  fields:
+    state: PA
+    school_district: Athens Area School District
+    total_pop: 2401
+    poverty_pop: 384
+- model: school_districts.schooldistrict
+  pk: 15
+  fields:
+    state: PA
+    school_district: Austin Area School District
+    total_pop: 137
+    poverty_pop: 20
+- model: school_districts.schooldistrict
+  pk: 16
+  fields:
+    state: PA
+    school_district: Avella Area School District
+    total_pop: 556
+    poverty_pop: 73
+- model: school_districts.schooldistrict
+  pk: 17
+  fields:
+    state: PA
+    school_district: Avon Grove School District
+    total_pop: 6118
+    poverty_pop: 319
+- model: school_districts.schooldistrict
+  pk: 18
+  fields:
+    state: PA
+    school_district: Avonworth School District
+    total_pop: 2070
+    poverty_pop: 72
+- model: school_districts.schooldistrict
+  pk: 19
+  fields:
+    state: PA
+    school_district: Bald Eagle Area School District
+    total_pop: 1757
+    poverty_pop: 196
+- model: school_districts.schooldistrict
+  pk: 20
+  fields:
+    state: PA
+    school_district: Baldwin-Whitehall School District
+    total_pop: 5235
+    poverty_pop: 620
+- model: school_districts.schooldistrict
+  pk: 21
+  fields:
+    state: PA
+    school_district: Bangor Area School District
+    total_pop: 3295
+    poverty_pop: 446
+- model: school_districts.schooldistrict
+  pk: 22
+  fields:
+    state: PA
+    school_district: Beaver Area School District
+    total_pop: 2330
+    poverty_pop: 120
+- model: school_districts.schooldistrict
+  pk: 23
+  fields:
+    state: PA
+    school_district: Bedford Area School District
+    total_pop: 2121
+    poverty_pop: 238
+- model: school_districts.schooldistrict
+  pk: 24
+  fields:
+    state: PA
+    school_district: Belle Vernon Area School District
+    total_pop: 2659
+    poverty_pop: 405
+- model: school_districts.schooldistrict
+  pk: 25
+  fields:
+    state: PA
+    school_district: Bellefonte Area School District
+    total_pop: 3378
+    poverty_pop: 351
+- model: school_districts.schooldistrict
+  pk: 26
+  fields:
+    state: PA
+    school_district: Bellwood-Antis School District
+    total_pop: 1329
+    poverty_pop: 140
+- model: school_districts.schooldistrict
+  pk: 27
+  fields:
+    state: PA
+    school_district: Bensalem Township School District
+    total_pop: 8296
+    poverty_pop: 1088
+- model: school_districts.schooldistrict
+  pk: 28
+  fields:
+    state: PA
+    school_district: Benton Area School District
+    total_pop: 796
+    poverty_pop: 81
+- model: school_districts.schooldistrict
+  pk: 29
+  fields:
+    state: PA
+    school_district: Bentworth School District
+    total_pop: 1234
+    poverty_pop: 140
+- model: school_districts.schooldistrict
+  pk: 30
+  fields:
+    state: PA
+    school_district: Berlin Brothersvalley School District
+    total_pop: 798
+    poverty_pop: 92
+- model: school_districts.schooldistrict
+  pk: 31
+  fields:
+    state: PA
+    school_district: Bermudian Springs School District
+    total_pop: 2227
+    poverty_pop: 233
+- model: school_districts.schooldistrict
+  pk: 32
+  fields:
+    state: PA
+    school_district: Berwick Area School District
+    total_pop: 3190
+    poverty_pop: 583
+- model: school_districts.schooldistrict
+  pk: 33
+  fields:
+    state: PA
+    school_district: Bethel Park School District
+    total_pop: 4703
+    poverty_pop: 268
+- model: school_districts.schooldistrict
+  pk: 34
+  fields:
+    state: PA
+    school_district: Bethlehem Area School District
+    total_pop: 16800
+    poverty_pop: 2855
+- model: school_districts.schooldistrict
+  pk: 35
+  fields:
+    state: PA
+    school_district: Bethlehem-Center School District
+    total_pop: 1291
+    poverty_pop: 149
+- model: school_districts.schooldistrict
+  pk: 36
+  fields:
+    state: PA
+    school_district: Big Beaver Falls Area School District
+    total_pop: 1870
+    poverty_pop: 408
+- model: school_districts.schooldistrict
+  pk: 37
+  fields:
+    state: PA
+    school_district: Big Spring School District
+    total_pop: 3672
+    poverty_pop: 406
+- model: school_districts.schooldistrict
+  pk: 38
+  fields:
+    state: PA
+    school_district: Blackhawk School District
+    total_pop: 2788
+    poverty_pop: 187
+- model: school_districts.schooldistrict
+  pk: 39
+  fields:
+    state: PA
+    school_district: Blacklick Valley School District
+    total_pop: 704
+    poverty_pop: 106
+- model: school_districts.schooldistrict
+  pk: 40
+  fields:
+    state: PA
+    school_district: Blairsville-Saltsburg School District
+    total_pop: 1632
+    poverty_pop: 277
+- model: school_districts.schooldistrict
+  pk: 41
+  fields:
+    state: PA
+    school_district: Bloomsburg Area School District
+    total_pop: 1835
+    poverty_pop: 278
+- model: school_districts.schooldistrict
+  pk: 42
+  fields:
+    state: PA
+    school_district: Blue Mountain School District
+    total_pop: 3144
+    poverty_pop: 264
+- model: school_districts.schooldistrict
+  pk: 43
+  fields:
+    state: PA
+    school_district: Blue Ridge School District
+    total_pop: 958
+    poverty_pop: 174
+- model: school_districts.schooldistrict
+  pk: 44
+  fields:
+    state: PA
+    school_district: Boyertown Area School District
+    total_pop: 8275
+    poverty_pop: 461
+- model: school_districts.schooldistrict
+  pk: 45
+  fields:
+    state: PA
+    school_district: Bradford Area School District
+    total_pop: 2597
+    poverty_pop: 590
+- model: school_districts.schooldistrict
+  pk: 46
+  fields:
+    state: PA
+    school_district: Brandywine Heights Area School District
+    total_pop: 1734
+    poverty_pop: 138
+- model: school_districts.schooldistrict
+  pk: 47
+  fields:
+    state: PA
+    school_district: Brentwood Borough School District
+    total_pop: 1370
+    poverty_pop: 225
+- model: school_districts.schooldistrict
+  pk: 48
+  fields:
+    state: PA
+    school_district: Bristol Borough School District
+    total_pop: 1525
+    poverty_pop: 278
+- model: school_districts.schooldistrict
+  pk: 49
+  fields:
+    state: PA
+    school_district: Bristol Township School District
+    total_pop: 7736
+    poverty_pop: 1085
+- model: school_districts.schooldistrict
+  pk: 50
+  fields:
+    state: PA
+    school_district: Brockway Area School District
+    total_pop: 1134
+    poverty_pop: 234
+- model: school_districts.schooldistrict
+  pk: 51
+  fields:
+    state: PA
+    school_district: Brookville Area School District
+    total_pop: 1765
+    poverty_pop: 358
+- model: school_districts.schooldistrict
+  pk: 52
+  fields:
+    state: PA
+    school_district: Brownsville Area School District
+    total_pop: 1680
+    poverty_pop: 469
+- model: school_districts.schooldistrict
+  pk: 53
+  fields:
+    state: PA
+    school_district: Bryn Athyn School District
+    total_pop: 214
+    poverty_pop: 5
+- model: school_districts.schooldistrict
+  pk: 54
+  fields:
+    state: PA
+    school_district: Burgettstown Area School District
+    total_pop: 1300
+    poverty_pop: 128
+- model: school_districts.schooldistrict
+  pk: 55
+  fields:
+    state: PA
+    school_district: Burrell School District
+    total_pop: 1857
+    poverty_pop: 190
+- model: school_districts.schooldistrict
+  pk: 56
+  fields:
+    state: PA
+    school_district: Butler Area School District
+    total_pop: 7264
+    poverty_pop: 1146
+- model: school_districts.schooldistrict
+  pk: 57
+  fields:
+    state: PA
+    school_district: California Area School District
+    total_pop: 1075
+    poverty_pop: 153
+- model: school_districts.schooldistrict
+  pk: 58
+  fields:
+    state: PA
+    school_district: Cambria Heights School District
+    total_pop: 1470
+    poverty_pop: 139
+- model: school_districts.schooldistrict
+  pk: 59
+  fields:
+    state: PA
+    school_district: Cameron County School District
+    total_pop: 611
+    poverty_pop: 145
+- model: school_districts.schooldistrict
+  pk: 60
+  fields:
+    state: PA
+    school_district: Camp Hill School District
+    total_pop: 1479
+    poverty_pop: 50
+- model: school_districts.schooldistrict
+  pk: 61
+  fields:
+    state: PA
+    school_district: Canon-McMillan School District
+    total_pop: 6110
+    poverty_pop: 426
+- model: school_districts.schooldistrict
+  pk: 62
+  fields:
+    state: PA
+    school_district: Canton Area School District
+    total_pop: 1014
+    poverty_pop: 178
+- model: school_districts.schooldistrict
+  pk: 63
+  fields:
+    state: PA
+    school_district: Carbondale Area School District
+    total_pop: 1868
+    poverty_pop: 523
+- model: school_districts.schooldistrict
+  pk: 64
+  fields:
+    state: PA
+    school_district: Carlisle Area School District
+    total_pop: 6077
+    poverty_pop: 766
+- model: school_districts.schooldistrict
+  pk: 65
+  fields:
+    state: PA
+    school_district: Carlynton School District
+    total_pop: 1693
+    poverty_pop: 309
+- model: school_districts.schooldistrict
+  pk: 66
+  fields:
+    state: PA
+    school_district: Carmichaels Area School District
+    total_pop: 1031
+    poverty_pop: 215
+- model: school_districts.schooldistrict
+  pk: 67
+  fields:
+    state: PA
+    school_district: Catasauqua Area School District
+    total_pop: 1753
+    poverty_pop: 302
+- model: school_districts.schooldistrict
+  pk: 68
+  fields:
+    state: PA
+    school_district: Centennial School District
+    total_pop: 6435
+    poverty_pop: 557
+- model: school_districts.schooldistrict
+  pk: 69
+  fields:
+    state: PA
+    school_district: Central Bucks School District
+    total_pop: 19810
+    poverty_pop: 715
+- model: school_districts.schooldistrict
+  pk: 70
+  fields:
+    state: PA
+    school_district: Central Cambria School District
+    total_pop: 1827
+    poverty_pop: 166
+- model: school_districts.schooldistrict
+  pk: 71
+  fields:
+    state: PA
+    school_district: Central Columbia School District
+    total_pop: 2156
+    poverty_pop: 195
+- model: school_districts.schooldistrict
+  pk: 72
+  fields:
+    state: PA
+    school_district: Central Dauphin School District
+    total_pop: 16503
+    poverty_pop: 2517
+- model: school_districts.schooldistrict
+  pk: 73
+  fields:
+    state: PA
+    school_district: Central Fulton School District
+    total_pop: 925
+    poverty_pop: 193
+- model: school_districts.schooldistrict
+  pk: 74
+  fields:
+    state: PA
+    school_district: Central Greene School District
+    total_pop: 1798
+    poverty_pop: 302
+- model: school_districts.schooldistrict
+  pk: 75
+  fields:
+    state: PA
+    school_district: Central Valley School District
+    total_pop: 2567
+    poverty_pop: 230
+- model: school_districts.schooldistrict
+  pk: 76
+  fields:
+    state: PA
+    school_district: Central York School District
+    total_pop: 6622
+    poverty_pop: 567
+- model: school_districts.schooldistrict
+  pk: 77
+  fields:
+    state: PA
+    school_district: Chambersburg Area School District
+    total_pop: 11318
+    poverty_pop: 1292
+- model: school_districts.schooldistrict
+  pk: 78
+  fields:
+    state: PA
+    school_district: Charleroi School District
+    total_pop: 1637
+    poverty_pop: 320
+- model: school_districts.schooldistrict
+  pk: 79
+  fields:
+    state: PA
+    school_district: Chartiers Valley School District
+    total_pop: 3895
+    poverty_pop: 395
+- model: school_districts.schooldistrict
+  pk: 80
+  fields:
+    state: PA
+    school_district: Chartiers-Houston School District
+    total_pop: 1392
+    poverty_pop: 152
+- model: school_districts.schooldistrict
+  pk: 81
+  fields:
+    state: PA
+    school_district: Cheltenham School District
+    total_pop: 5537
+    poverty_pop: 514
+- model: school_districts.schooldistrict
+  pk: 82
+  fields:
+    state: PA
+    school_district: Chester-Upland School District
+    total_pop: 7005
+    poverty_pop: 2361
+- model: school_districts.schooldistrict
+  pk: 83
+  fields:
+    state: PA
+    school_district: Chestnut Ridge School District
+    total_pop: 1486
+    poverty_pop: 212
+- model: school_districts.schooldistrict
+  pk: 84
+  fields:
+    state: PA
+    school_district: Chichester School District
+    total_pop: 3633
+    poverty_pop: 639
+- model: school_districts.schooldistrict
+  pk: 85
+  fields:
+    state: PA
+    school_district: Clairton City School District
+    total_pop: 861
+    poverty_pop: 374
+- model: school_districts.schooldistrict
+  pk: 86
+  fields:
+    state: PA
+    school_district: Clarion Area School District
+    total_pop: 862
+    poverty_pop: 172
+- model: school_districts.schooldistrict
+  pk: 87
+  fields:
+    state: PA
+    school_district: Clarion-Limestone Area School District
+    total_pop: 954
+    poverty_pop: 143
+- model: school_districts.schooldistrict
+  pk: 88
+  fields:
+    state: PA
+    school_district: Claysburg-Kimmel School District
+    total_pop: 840
+    poverty_pop: 157
+- model: school_districts.schooldistrict
+  pk: 89
+  fields:
+    state: PA
+    school_district: Clearfield Area School District
+    total_pop: 2515
+    poverty_pop: 465
+- model: school_districts.schooldistrict
+  pk: 90
+  fields:
+    state: PA
+    school_district: Coatesville Area School District
+    total_pop: 10259
+    poverty_pop: 1399
+- model: school_districts.schooldistrict
+  pk: 91
+  fields:
+    state: PA
+    school_district: Cocalico School District
+    total_pop: 4552
+    poverty_pop: 277
+- model: school_districts.schooldistrict
+  pk: 92
+  fields:
+    state: PA
+    school_district: Colonial School District
+    total_pop: 7104
+    poverty_pop: 353
+- model: school_districts.schooldistrict
+  pk: 93
+  fields:
+    state: PA
+    school_district: Columbia Borough School District
+    total_pop: 1488
+    poverty_pop: 345
+- model: school_districts.schooldistrict
+  pk: 94
+  fields:
+    state: PA
+    school_district: Commodore Perry School District
+    total_pop: 619
+    poverty_pop: 95
+- model: school_districts.schooldistrict
+  pk: 95
+  fields:
+    state: PA
+    school_district: Conemaugh Township Area School District
+    total_pop: 979
+    poverty_pop: 84
+- model: school_districts.schooldistrict
+  pk: 96
+  fields:
+    state: PA
+    school_district: Conemaugh Valley School District
+    total_pop: 823
+    poverty_pop: 163
+- model: school_districts.schooldistrict
+  pk: 97
+  fields:
+    state: PA
+    school_district: Conestoga Valley School District
+    total_pop: 6384
+    poverty_pop: 754
+- model: school_districts.schooldistrict
+  pk: 98
+  fields:
+    state: PA
+    school_district: Conewago Valley School District
+    total_pop: 4611
+    poverty_pop: 557
+- model: school_districts.schooldistrict
+  pk: 99
+  fields:
+    state: PA
+    school_district: Conneaut School District
+    total_pop: 2536
+    poverty_pop: 430
+- model: school_districts.schooldistrict
+  pk: 100
+  fields:
+    state: PA
+    school_district: Connellsville Area School District
+    total_pop: 4550
+    poverty_pop: 1033
+- model: school_districts.schooldistrict
+  pk: 101
+  fields:
+    state: PA
+    school_district: Conrad Weiser Area School District
+    total_pop: 3154
+    poverty_pop: 257
+- model: school_districts.schooldistrict
+  pk: 102
+  fields:
+    state: PA
+    school_district: Cornell School District
+    total_pop: 712
+    poverty_pop: 149
+- model: school_districts.schooldistrict
+  pk: 103
+  fields:
+    state: PA
+    school_district: Cornwall-Lebanon School District
+    total_pop: 6043
+    poverty_pop: 452
+- model: school_districts.schooldistrict
+  pk: 104
+  fields:
+    state: PA
+    school_district: Corry Area School District
+    total_pop: 2381
+    poverty_pop: 497
+- model: school_districts.schooldistrict
+  pk: 105
+  fields:
+    state: PA
+    school_district: Coudersport Area School District
+    total_pop: 795
+    poverty_pop: 121
+- model: school_districts.schooldistrict
+  pk: 106
+  fields:
+    state: PA
+    school_district: Council Rock School District
+    total_pop: 12182
+    poverty_pop: 412
+- model: school_districts.schooldistrict
+  pk: 107
+  fields:
+    state: PA
+    school_district: Cranberry Area School District
+    total_pop: 1267
+    poverty_pop: 187
+- model: school_districts.schooldistrict
+  pk: 108
+  fields:
+    state: PA
+    school_district: Crawford Central School District
+    total_pop: 3916
+    poverty_pop: 643
+- model: school_districts.schooldistrict
+  pk: 109
+  fields:
+    state: PA
+    school_district: Crestwood School District
+    total_pop: 3411
+    poverty_pop: 261
+- model: school_districts.schooldistrict
+  pk: 110
+  fields:
+    state: PA
+    school_district: Cumberland Valley School District
+    total_pop: 11543
+    poverty_pop: 620
+- model: school_districts.schooldistrict
+  pk: 111
+  fields:
+    state: PA
+    school_district: Curwensville Area School District
+    total_pop: 1123
+    poverty_pop: 188
+- model: school_districts.schooldistrict
+  pk: 112
+  fields:
+    state: PA
+    school_district: Dallas School District
+    total_pop: 3048
+    poverty_pop: 283
+- model: school_districts.schooldistrict
+  pk: 113
+  fields:
+    state: PA
+    school_district: Dallastown Area School District
+    total_pop: 7436
+    poverty_pop: 548
+- model: school_districts.schooldistrict
+  pk: 114
+  fields:
+    state: PA
+    school_district: Daniel Boone Area School District
+    total_pop: 3880
+    poverty_pop: 252
+- model: school_districts.schooldistrict
+  pk: 115
+  fields:
+    state: PA
+    school_district: Danville Area School District
+    total_pop: 2674
+    poverty_pop: 268
+- model: school_districts.schooldistrict
+  pk: 116
+  fields:
+    state: PA
+    school_district: Deer Lakes School District
+    total_pop: 1967
+    poverty_pop: 150
+- model: school_districts.schooldistrict
+  pk: 117
+  fields:
+    state: PA
+    school_district: Delaware Valley School District
+    total_pop: 4309
+    poverty_pop: 470
+- model: school_districts.schooldistrict
+  pk: 118
+  fields:
+    state: PA
+    school_district: Derry Area School District
+    total_pop: 2162
+    poverty_pop: 377
+- model: school_districts.schooldistrict
+  pk: 119
+  fields:
+    state: PA
+    school_district: Derry Township School District
+    total_pop: 4405
+    poverty_pop: 248
+- model: school_districts.schooldistrict
+  pk: 120
+  fields:
+    state: PA
+    school_district: Donegal School District
+    total_pop: 3581
+    poverty_pop: 291
+- model: school_districts.schooldistrict
+  pk: 121
+  fields:
+    state: PA
+    school_district: Dover Area School District
+    total_pop: 3793
+    poverty_pop: 360
+- model: school_districts.schooldistrict
+  pk: 122
+  fields:
+    state: PA
+    school_district: Downingtown Area School District
+    total_pop: 14811
+    poverty_pop: 412
+- model: school_districts.schooldistrict
+  pk: 123
+  fields:
+    state: PA
+    school_district: DuBois Area School District
+    total_pop: 4586
+    poverty_pop: 880
+- model: school_districts.schooldistrict
+  pk: 124
+  fields:
+    state: PA
+    school_district: Dunmore School District
+    total_pop: 1886
+    poverty_pop: 223
+- model: school_districts.schooldistrict
+  pk: 125
+  fields:
+    state: PA
+    school_district: Duquesne City School District
+    total_pop: 906
+    poverty_pop: 429
+- model: school_districts.schooldistrict
+  pk: 126
+  fields:
+    state: PA
+    school_district: East Allegheny School District
+    total_pop: 1836
+    poverty_pop: 450
+- model: school_districts.schooldistrict
+  pk: 127
+  fields:
+    state: PA
+    school_district: East Lycoming School District
+    total_pop: 1707
+    poverty_pop: 201
+- model: school_districts.schooldistrict
+  pk: 128
+  fields:
+    state: PA
+    school_district: East Penn School District
+    total_pop: 9619
+    poverty_pop: 617
+- model: school_districts.schooldistrict
+  pk: 129
+  fields:
+    state: PA
+    school_district: East Pennsboro Area School District
+    total_pop: 3040
+    poverty_pop: 306
+- model: school_districts.schooldistrict
+  pk: 130
+  fields:
+    state: PA
+    school_district: East Stroudsburg Area School District
+    total_pop: 6734
+    poverty_pop: 1044
+- model: school_districts.schooldistrict
+  pk: 131
+  fields:
+    state: PA
+    school_district: Eastern Lancaster County School District
+    total_pop: 6347
+    poverty_pop: 482
+- model: school_districts.schooldistrict
+  pk: 132
+  fields:
+    state: PA
+    school_district: Eastern Lebanon County School District
+    total_pop: 4083
+    poverty_pop: 294
+- model: school_districts.schooldistrict
+  pk: 133
+  fields:
+    state: PA
+    school_district: Eastern York School District
+    total_pop: 3003
+    poverty_pop: 290
+- model: school_districts.schooldistrict
+  pk: 134
+  fields:
+    state: PA
+    school_district: Easton Area School District
+    total_pop: 9786
+    poverty_pop: 1568
+- model: school_districts.schooldistrict
+  pk: 135
+  fields:
+    state: PA
+    school_district: Elizabeth Forward School District
+    total_pop: 2420
+    poverty_pop: 273
+- model: school_districts.schooldistrict
+  pk: 136
+  fields:
+    state: PA
+    school_district: Elizabethtown Area School District
+    total_pop: 4679
+    poverty_pop: 372
+- model: school_districts.schooldistrict
+  pk: 137
+  fields:
+    state: PA
+    school_district: Elk Lake School District
+    total_pop: 1098
+    poverty_pop: 149
+- model: school_districts.schooldistrict
+  pk: 138
+  fields:
+    state: PA
+    school_district: Ellwood City Area School District
+    total_pop: 1858
+    poverty_pop: 253
+- model: school_districts.schooldistrict
+  pk: 139
+  fields:
+    state: PA
+    school_district: Ephrata Area School District
+    total_pop: 5575
+    poverty_pop: 518
+- model: school_districts.schooldistrict
+  pk: 140
+  fields:
+    state: PA
+    school_district: Erie City School District
+    total_pop: 14207
+    poverty_pop: 4760
+- model: school_districts.schooldistrict
+  pk: 141
+  fields:
+    state: PA
+    school_district: Everett Area School District
+    total_pop: 1286
+    poverty_pop: 209
+- model: school_districts.schooldistrict
+  pk: 142
+  fields:
+    state: PA
+    school_district: Exeter Township School District
+    total_pop: 4348
+    poverty_pop: 344
+- model: school_districts.schooldistrict
+  pk: 143
+  fields:
+    state: PA
+    school_district: Fairfield Area School District
+    total_pop: 1233
+    poverty_pop: 117
+- model: school_districts.schooldistrict
+  pk: 144
+  fields:
+    state: PA
+    school_district: Fairview School District
+    total_pop: 2056
+    poverty_pop: 126
+- model: school_districts.schooldistrict
+  pk: 145
+  fields:
+    state: PA
+    school_district: Fannett-Metal School District
+    total_pop: 787
+    poverty_pop: 157
+- model: school_districts.schooldistrict
+  pk: 146
+  fields:
+    state: PA
+    school_district: Farrell Area School District
+    total_pop: 687
+    poverty_pop: 237
+- model: school_districts.schooldistrict
+  pk: 147
+  fields:
+    state: PA
+    school_district: Ferndale Area School District
+    total_pop: 684
+    poverty_pop: 193
+- model: school_districts.schooldistrict
+  pk: 148
+  fields:
+    state: PA
+    school_district: Fleetwood Area School District
+    total_pop: 2747
+    poverty_pop: 199
+- model: school_districts.schooldistrict
+  pk: 149
+  fields:
+    state: PA
+    school_district: Forbes Road School District
+    total_pop: 410
+    poverty_pop: 76
+- model: school_districts.schooldistrict
+  pk: 150
+  fields:
+    state: PA
+    school_district: Forest Area School District
+    total_pop: 591
+    poverty_pop: 98
+- model: school_districts.schooldistrict
+  pk: 151
+  fields:
+    state: PA
+    school_district: Forest City Regional School District
+    total_pop: 803
+    poverty_pop: 147
+- model: school_districts.schooldistrict
+  pk: 152
+  fields:
+    state: PA
+    school_district: Forest Hills School District
+    total_pop: 1930
+    poverty_pop: 180
+- model: school_districts.schooldistrict
+  pk: 153
+  fields:
+    state: PA
+    school_district: Fort Cherry School District
+    total_pop: 1092
+    poverty_pop: 101
+- model: school_districts.schooldistrict
+  pk: 154
+  fields:
+    state: PA
+    school_district: Fort LeBoeuf School District
+    total_pop: 2299
+    poverty_pop: 298
+- model: school_districts.schooldistrict
+  pk: 155
+  fields:
+    state: PA
+    school_district: Fox Chapel Area School District
+    total_pop: 4949
+    poverty_pop: 297
+- model: school_districts.schooldistrict
+  pk: 156
+  fields:
+    state: PA
+    school_district: Franklin Area School District
+    total_pop: 2078
+    poverty_pop: 358
+- model: school_districts.schooldistrict
+  pk: 157
+  fields:
+    state: PA
+    school_district: Franklin Regional School District
+    total_pop: 3726
+    poverty_pop: 220
+- model: school_districts.schooldistrict
+  pk: 158
+  fields:
+    state: PA
+    school_district: Frazier School District
+    total_pop: 1042
+    poverty_pop: 128
+- model: school_districts.schooldistrict
+  pk: 159
+  fields:
+    state: PA
+    school_district: Freedom Area School District
+    total_pop: 1473
+    poverty_pop: 170
+- model: school_districts.schooldistrict
+  pk: 160
+  fields:
+    state: PA
+    school_district: Freeport Area School District
+    total_pop: 2007
+    poverty_pop: 124
+- model: school_districts.schooldistrict
+  pk: 161
+  fields:
+    state: PA
+    school_district: Galeton Area School District
+    total_pop: 281
+    poverty_pop: 49
+- model: school_districts.schooldistrict
+  pk: 162
+  fields:
+    state: PA
+    school_district: Garnet Valley School District
+    total_pop: 5104
+    poverty_pop: 150
+- model: school_districts.schooldistrict
+  pk: 163
+  fields:
+    state: PA
+    school_district: Gateway School District
+    total_pop: 4024
+    poverty_pop: 637
+- model: school_districts.schooldistrict
+  pk: 164
+  fields:
+    state: PA
+    school_district: General McLane School District
+    total_pop: 2278
+    poverty_pop: 261
+- model: school_districts.schooldistrict
+  pk: 165
+  fields:
+    state: PA
+    school_district: Gettysburg Area School District
+    total_pop: 3357
+    poverty_pop: 448
+- model: school_districts.schooldistrict
+  pk: 166
+  fields:
+    state: PA
+    school_district: Girard School District
+    total_pop: 1716
+    poverty_pop: 272
+- model: school_districts.schooldistrict
+  pk: 167
+  fields:
+    state: PA
+    school_district: Glendale School District
+    total_pop: 737
+    poverty_pop: 105
+- model: school_districts.schooldistrict
+  pk: 168
+  fields:
+    state: PA
+    school_district: Governor Mifflin School District
+    total_pop: 4675
+    poverty_pop: 426
+- model: school_districts.schooldistrict
+  pk: 169
+  fields:
+    state: PA
+    school_district: Great Valley School District
+    total_pop: 5699
+    poverty_pop: 214
+- model: school_districts.schooldistrict
+  pk: 170
+  fields:
+    state: PA
+    school_district: Greater Johnstown School District
+    total_pop: 3655
+    poverty_pop: 1338
+- model: school_districts.schooldistrict
+  pk: 171
+  fields:
+    state: PA
+    school_district: Greater Latrobe School District
+    total_pop: 4081
+    poverty_pop: 446
+- model: school_districts.schooldistrict
+  pk: 172
+  fields:
+    state: PA
+    school_district: Greater Nanticoke Area School District
+    total_pop: 2732
+    poverty_pop: 810
+- model: school_districts.schooldistrict
+  pk: 173
+  fields:
+    state: PA
+    school_district: Greencastle-Antrim School District
+    total_pop: 3574
+    poverty_pop: 252
+- model: school_districts.schooldistrict
+  pk: 174
+  fields:
+    state: PA
+    school_district: Greensburg Salem School District
+    total_pop: 3053
+    poverty_pop: 492
+- model: school_districts.schooldistrict
+  pk: 175
+  fields:
+    state: PA
+    school_district: Greenville Area School District
+    total_pop: 1315
+    poverty_pop: 211
+- model: school_districts.schooldistrict
+  pk: 176
+  fields:
+    state: PA
+    school_district: Greenwood School District
+    total_pop: 940
+    poverty_pop: 84
+- model: school_districts.schooldistrict
+  pk: 177
+  fields:
+    state: PA
+    school_district: Grove City Area School District
+    total_pop: 2290
+    poverty_pop: 232
+- model: school_districts.schooldistrict
+  pk: 178
+  fields:
+    state: PA
+    school_district: Halifax Area School District
+    total_pop: 1130
+    poverty_pop: 103
+- model: school_districts.schooldistrict
+  pk: 179
+  fields:
+    state: PA
+    school_district: Hamburg Area School District
+    total_pop: 2544
+    poverty_pop: 275
+- model: school_districts.schooldistrict
+  pk: 180
+  fields:
+    state: PA
+    school_district: Hampton Township School District
+    total_pop: 3124
+    poverty_pop: 118
+- model: school_districts.schooldistrict
+  pk: 181
+  fields:
+    state: PA
+    school_district: Hanover Area School District
+    total_pop: 2474
+    poverty_pop: 749
+- model: school_districts.schooldistrict
+  pk: 182
+  fields:
+    state: PA
+    school_district: Hanover Public School District
+    total_pop: 2194
+    poverty_pop: 309
+- model: school_districts.schooldistrict
+  pk: 183
+  fields:
+    state: PA
+    school_district: Harbor Creek School District
+    total_pop: 2406
+    poverty_pop: 201
+- model: school_districts.schooldistrict
+  pk: 184
+  fields:
+    state: PA
+    school_district: Harmony Area School District
+    total_pop: 365
+    poverty_pop: 94
+- model: school_districts.schooldistrict
+  pk: 185
+  fields:
+    state: PA
+    school_district: Harrisburg City School District
+    total_pop: 8989
+    poverty_pop: 3510
+- model: school_districts.schooldistrict
+  pk: 186
+  fields:
+    state: PA
+    school_district: Hatboro-Horsham School District
+    total_pop: 5619
+    poverty_pop: 352
+- model: school_districts.schooldistrict
+  pk: 187
+  fields:
+    state: PA
+    school_district: Haverford Township School District
+    total_pop: 8539
+    poverty_pop: 240
+- model: school_districts.schooldistrict
+  pk: 188
+  fields:
+    state: PA
+    school_district: Hazleton Area School District
+    total_pop: 13323
+    poverty_pop: 3614
+- model: school_districts.schooldistrict
+  pk: 189
+  fields:
+    state: PA
+    school_district: Hempfield Area School District
+    total_pop: 5960
+    poverty_pop: 556
+- model: school_districts.schooldistrict
+  pk: 190
+  fields:
+    state: PA
+    school_district: Hempfield School District
+    total_pop: 8444
+    poverty_pop: 681
+- model: school_districts.schooldistrict
+  pk: 191
+  fields:
+    state: PA
+    school_district: Hermitage School District
+    total_pop: 2046
+    poverty_pop: 276
+- model: school_districts.schooldistrict
+  pk: 192
+  fields:
+    state: PA
+    school_district: Highlands School District
+    total_pop: 2657
+    poverty_pop: 580
+- model: school_districts.schooldistrict
+  pk: 193
+  fields:
+    state: PA
+    school_district: Hollidaysburg Area School District
+    total_pop: 3713
+    poverty_pop: 365
+- model: school_districts.schooldistrict
+  pk: 194
+  fields:
+    state: PA
+    school_district: Homer-Center School District
+    total_pop: 832
+    poverty_pop: 109
+- model: school_districts.schooldistrict
+  pk: 195
+  fields:
+    state: PA
+    school_district: Hopewell Area School District
+    total_pop: 2605
+    poverty_pop: 175
+- model: school_districts.schooldistrict
+  pk: 196
+  fields:
+    state: PA
+    school_district: Huntingdon Area School District
+    total_pop: 2127
+    poverty_pop: 362
+- model: school_districts.schooldistrict
+  pk: 197
+  fields:
+    state: PA
+    school_district: Indiana Area School District
+    total_pop: 3282
+    poverty_pop: 561
+- model: school_districts.schooldistrict
+  pk: 198
+  fields:
+    state: PA
+    school_district: Interboro School District
+    total_pop: 3623
+    poverty_pop: 485
+- model: school_districts.schooldistrict
+  pk: 199
+  fields:
+    state: PA
+    school_district: Iroquois School District
+    total_pop: 1232
+    poverty_pop: 232
+- model: school_districts.schooldistrict
+  pk: 200
+  fields:
+    state: PA
+    school_district: Jamestown Area School District
+    total_pop: 456
+    poverty_pop: 78
+- model: school_districts.schooldistrict
+  pk: 201
+  fields:
+    state: PA
+    school_district: Jeannette City School District
+    total_pop: 1174
+    poverty_pop: 346
+- model: school_districts.schooldistrict
+  pk: 202
+  fields:
+    state: PA
+    school_district: Jefferson-Morgan School District
+    total_pop: 806
+    poverty_pop: 123
+- model: school_districts.schooldistrict
+  pk: 203
+  fields:
+    state: PA
+    school_district: Jenkintown School District
+    total_pop: 850
+    poverty_pop: 48
+- model: school_districts.schooldistrict
+  pk: 204
+  fields:
+    state: PA
+    school_district: Jersey Shore Area School District
+    total_pop: 2817
+    poverty_pop: 320
+- model: school_districts.schooldistrict
+  pk: 205
+  fields:
+    state: PA
+    school_district: Jim Thorpe Area School District
+    total_pop: 2263
+    poverty_pop: 315
+- model: school_districts.schooldistrict
+  pk: 206
+  fields:
+    state: PA
+    school_district: Johnsonburg Area School District
+    total_pop: 586
+    poverty_pop: 101
+- model: school_districts.schooldistrict
+  pk: 207
+  fields:
+    state: PA
+    school_district: Juniata County School District
+    total_pop: 3612
+    poverty_pop: 425
+- model: school_districts.schooldistrict
+  pk: 208
+  fields:
+    state: PA
+    school_district: Juniata Valley School District
+    total_pop: 793
+    poverty_pop: 131
+- model: school_districts.schooldistrict
+  pk: 209
+  fields:
+    state: PA
+    school_district: Kane Area School District
+    total_pop: 1078
+    poverty_pop: 211
+- model: school_districts.schooldistrict
+  pk: 210
+  fields:
+    state: PA
+    school_district: Karns City Area School District
+    total_pop: 1344
+    poverty_pop: 142
+- model: school_districts.schooldistrict
+  pk: 211
+  fields:
+    state: PA
+    school_district: Kennett Consolidated School District
+    total_pop: 4633
+    poverty_pop: 329
+- model: school_districts.schooldistrict
+  pk: 212
+  fields:
+    state: PA
+    school_district: Keystone Central School District
+    total_pop: 5133
+    poverty_pop: 932
+- model: school_districts.schooldistrict
+  pk: 213
+  fields:
+    state: PA
+    school_district: Keystone Oaks School District
+    total_pop: 2292
+    poverty_pop: 227
+- model: school_districts.schooldistrict
+  pk: 214
+  fields:
+    state: PA
+    school_district: Keystone School District
+    total_pop: 1248
+    poverty_pop: 182
+- model: school_districts.schooldistrict
+  pk: 215
+  fields:
+    state: PA
+    school_district: Kiski Area School District
+    total_pop: 3876
+    poverty_pop: 555
+- model: school_districts.schooldistrict
+  pk: 216
+  fields:
+    state: PA
+    school_district: Knoch School District
+    total_pop: 2534
+    poverty_pop: 235
+- model: school_districts.schooldistrict
+  pk: 217
+  fields:
+    state: PA
+    school_district: Kutztown Area School District
+    total_pop: 1860
+    poverty_pop: 179
+- model: school_districts.schooldistrict
+  pk: 218
+  fields:
+    state: PA
+    school_district: Lackawanna Trail School District
+    total_pop: 1207
+    poverty_pop: 138
+- model: school_districts.schooldistrict
+  pk: 219
+  fields:
+    state: PA
+    school_district: Lake-Lehman School District
+    total_pop: 2106
+    poverty_pop: 215
+- model: school_districts.schooldistrict
+  pk: 220
+  fields:
+    state: PA
+    school_district: Lakeland School District
+    total_pop: 1790
+    poverty_pop: 200
+- model: school_districts.schooldistrict
+  pk: 221
+  fields:
+    state: PA
+    school_district: Lakeview School District
+    total_pop: 1220
+    poverty_pop: 183
+- model: school_districts.schooldistrict
+  pk: 222
+  fields:
+    state: PA
+    school_district: Lampeter-Strasburg School District
+    total_pop: 4322
+    poverty_pop: 311
+- model: school_districts.schooldistrict
+  pk: 223
+  fields:
+    state: PA
+    school_district: Lancaster School District
+    total_pop: 11779
+    poverty_pop: 2782
+- model: school_districts.schooldistrict
+  pk: 224
+  fields:
+    state: PA
+    school_district: Laurel Highlands School District
+    total_pop: 2962
+    poverty_pop: 645
+- model: school_districts.schooldistrict
+  pk: 225
+  fields:
+    state: PA
+    school_district: Laurel School District
+    total_pop: 1134
+    poverty_pop: 84
+- model: school_districts.schooldistrict
+  pk: 226
+  fields:
+    state: PA
+    school_district: Lebanon School District
+    total_pop: 5167
+    poverty_pop: 1249
+- model: school_districts.schooldistrict
+  pk: 227
+  fields:
+    state: PA
+    school_district: Leechburg Area School District
+    total_pop: 769
+    poverty_pop: 119
+- model: school_districts.schooldistrict
+  pk: 228
+  fields:
+    state: PA
+    school_district: Lehighton Area School District
+    total_pop: 2455
+    poverty_pop: 375
+- model: school_districts.schooldistrict
+  pk: 229
+  fields:
+    state: PA
+    school_district: Lewisburg Area School District
+    total_pop: 2139
+    poverty_pop: 160
+- model: school_districts.schooldistrict
+  pk: 230
+  fields:
+    state: PA
+    school_district: Ligonier Valley School District
+    total_pop: 1798
+    poverty_pop: 242
+- model: school_districts.schooldistrict
+  pk: 231
+  fields:
+    state: PA
+    school_district: Line Mountain School District
+    total_pop: 1411
+    poverty_pop: 172
+- model: school_districts.schooldistrict
+  pk: 232
+  fields:
+    state: PA
+    school_district: Littlestown Area School District
+    total_pop: 2295
+    poverty_pop: 267
+- model: school_districts.schooldistrict
+  pk: 233
+  fields:
+    state: PA
+    school_district: Lower Dauphin School District
+    total_pop: 4581
+    poverty_pop: 356
+- model: school_districts.schooldistrict
+  pk: 234
+  fields:
+    state: PA
+    school_district: Lower Merion School District
+    total_pop: 12277
+    poverty_pop: 499
+- model: school_districts.schooldistrict
+  pk: 235
+  fields:
+    state: PA
+    school_district: Lower Moreland Township School District
+    total_pop: 2685
+    poverty_pop: 172
+- model: school_districts.schooldistrict
+  pk: 236
+  fields:
+    state: PA
+    school_district: Loyalsock Township School District
+    total_pop: 1715
+    poverty_pop: 199
+- model: school_districts.schooldistrict
+  pk: 237
+  fields:
+    state: PA
+    school_district: Mahanoy Area School District
+    total_pop: 1153
+    poverty_pop: 296
+- model: school_districts.schooldistrict
+  pk: 238
+  fields:
+    state: PA
+    school_district: Manheim Central School District
+    total_pop: 4339
+    poverty_pop: 355
+- model: school_districts.schooldistrict
+  pk: 239
+  fields:
+    state: PA
+    school_district: Manheim Township School District
+    total_pop: 7136
+    poverty_pop: 455
+- model: school_districts.schooldistrict
+  pk: 240
+  fields:
+    state: PA
+    school_district: Marion Center Area School District
+    total_pop: 1652
+    poverty_pop: 320
+- model: school_districts.schooldistrict
+  pk: 241
+  fields:
+    state: PA
+    school_district: Marple Newtown School District
+    total_pop: 5967
+    poverty_pop: 247
+- model: school_districts.schooldistrict
+  pk: 242
+  fields:
+    state: PA
+    school_district: Mars Area School District
+    total_pop: 4192
+    poverty_pop: 156
+- model: school_districts.schooldistrict
+  pk: 243
+  fields:
+    state: PA
+    school_district: McGuffey School District
+    total_pop: 1839
+    poverty_pop: 193
+- model: school_districts.schooldistrict
+  pk: 244
+  fields:
+    state: PA
+    school_district: McKeesport Area School District
+    total_pop: 3976
+    poverty_pop: 1303
+- model: school_districts.schooldistrict
+  pk: 245
+  fields:
+    state: PA
+    school_district: Abington Heights School District
+    total_pop: 4168
+    poverty_pop: 260
+- model: school_districts.schooldistrict
+  pk: 246
+  fields:
+    state: PA
+    school_district: Abington School District
+    total_pop: 10173
+    poverty_pop: 671
+- model: school_districts.schooldistrict
+  pk: 247
+  fields:
+    state: PA
+    school_district: Albert Gallatin Area School District
+    total_pop: 3379
+    poverty_pop: 750
+- model: school_districts.schooldistrict
+  pk: 248
+  fields:
+    state: PA
+    school_district: Aliquippa School District
+    total_pop: 1311
+    poverty_pop: 354
+- model: school_districts.schooldistrict
+  pk: 249
+  fields:
+    state: PA
+    school_district: Allegheny Valley School District
+    total_pop: 1046
+    poverty_pop: 121
+- model: school_districts.schooldistrict
+  pk: 250
+  fields:
+    state: PA
+    school_district: Allegheny-Clarion Valley School District
+    total_pop: 769
+    poverty_pop: 106
+- model: school_districts.schooldistrict
+  pk: 251
+  fields:
+    state: PA
+    school_district: Allentown City School District
+    total_pop: 21736
+    poverty_pop: 6492
+- model: school_districts.schooldistrict
+  pk: 252
+  fields:
+    state: PA
+    school_district: Altoona Area School District
+    total_pop: 8323
+    poverty_pop: 1978
+- model: school_districts.schooldistrict
+  pk: 253
+  fields:
+    state: PA
+    school_district: Ambridge Area School District
+    total_pop: 2952
+    poverty_pop: 393
+- model: school_districts.schooldistrict
+  pk: 254
+  fields:
+    state: PA
+    school_district: Annville-Cleona School District
+    total_pop: 1915
+    poverty_pop: 143
+- model: school_districts.schooldistrict
+  pk: 255
+  fields:
+    state: PA
+    school_district: Antietam School District
+    total_pop: 1316
+    poverty_pop: 152
+- model: school_districts.schooldistrict
+  pk: 256
+  fields:
+    state: PA
+    school_district: Apollo-Ridge School District
+    total_pop: 1358
+    poverty_pop: 188
+- model: school_districts.schooldistrict
+  pk: 257
+  fields:
+    state: PA
+    school_district: Armstrong School District
+    total_pop: 5968
+    poverty_pop: 986
+- model: school_districts.schooldistrict
+  pk: 258
+  fields:
+    state: PA
+    school_district: Athens Area School District
+    total_pop: 2401
+    poverty_pop: 384
+- model: school_districts.schooldistrict
+  pk: 259
+  fields:
+    state: PA
+    school_district: Austin Area School District
+    total_pop: 137
+    poverty_pop: 20
+- model: school_districts.schooldistrict
+  pk: 260
+  fields:
+    state: PA
+    school_district: Avella Area School District
+    total_pop: 556
+    poverty_pop: 73
+- model: school_districts.schooldistrict
+  pk: 261
+  fields:
+    state: PA
+    school_district: Avon Grove School District
+    total_pop: 6118
+    poverty_pop: 319
+- model: school_districts.schooldistrict
+  pk: 262
+  fields:
+    state: PA
+    school_district: Avonworth School District
+    total_pop: 2070
+    poverty_pop: 72
+- model: school_districts.schooldistrict
+  pk: 263
+  fields:
+    state: PA
+    school_district: Bald Eagle Area School District
+    total_pop: 1757
+    poverty_pop: 196
+- model: school_districts.schooldistrict
+  pk: 264
+  fields:
+    state: PA
+    school_district: Baldwin-Whitehall School District
+    total_pop: 5235
+    poverty_pop: 620
+- model: school_districts.schooldistrict
+  pk: 265
+  fields:
+    state: PA
+    school_district: Bangor Area School District
+    total_pop: 3295
+    poverty_pop: 446
+- model: school_districts.schooldistrict
+  pk: 266
+  fields:
+    state: PA
+    school_district: Beaver Area School District
+    total_pop: 2330
+    poverty_pop: 120
+- model: school_districts.schooldistrict
+  pk: 267
+  fields:
+    state: PA
+    school_district: Bedford Area School District
+    total_pop: 2121
+    poverty_pop: 238
+- model: school_districts.schooldistrict
+  pk: 268
+  fields:
+    state: PA
+    school_district: Belle Vernon Area School District
+    total_pop: 2659
+    poverty_pop: 405
+- model: school_districts.schooldistrict
+  pk: 269
+  fields:
+    state: PA
+    school_district: Bellefonte Area School District
+    total_pop: 3378
+    poverty_pop: 351
+- model: school_districts.schooldistrict
+  pk: 270
+  fields:
+    state: PA
+    school_district: Bellwood-Antis School District
+    total_pop: 1329
+    poverty_pop: 140
+- model: school_districts.schooldistrict
+  pk: 271
+  fields:
+    state: PA
+    school_district: Bensalem Township School District
+    total_pop: 8296
+    poverty_pop: 1088
+- model: school_districts.schooldistrict
+  pk: 272
+  fields:
+    state: PA
+    school_district: Benton Area School District
+    total_pop: 796
+    poverty_pop: 81
+- model: school_districts.schooldistrict
+  pk: 273
+  fields:
+    state: PA
+    school_district: Bentworth School District
+    total_pop: 1234
+    poverty_pop: 140
+- model: school_districts.schooldistrict
+  pk: 274
+  fields:
+    state: PA
+    school_district: Berlin Brothersvalley School District
+    total_pop: 798
+    poverty_pop: 92
+- model: school_districts.schooldistrict
+  pk: 275
+  fields:
+    state: PA
+    school_district: Bermudian Springs School District
+    total_pop: 2227
+    poverty_pop: 233
+- model: school_districts.schooldistrict
+  pk: 276
+  fields:
+    state: PA
+    school_district: Berwick Area School District
+    total_pop: 3190
+    poverty_pop: 583
+- model: school_districts.schooldistrict
+  pk: 277
+  fields:
+    state: PA
+    school_district: Bethel Park School District
+    total_pop: 4703
+    poverty_pop: 268
+- model: school_districts.schooldistrict
+  pk: 278
+  fields:
+    state: PA
+    school_district: Bethlehem Area School District
+    total_pop: 16800
+    poverty_pop: 2855
+- model: school_districts.schooldistrict
+  pk: 279
+  fields:
+    state: PA
+    school_district: Bethlehem-Center School District
+    total_pop: 1291
+    poverty_pop: 149
+- model: school_districts.schooldistrict
+  pk: 280
+  fields:
+    state: PA
+    school_district: Big Beaver Falls Area School District
+    total_pop: 1870
+    poverty_pop: 408
+- model: school_districts.schooldistrict
+  pk: 281
+  fields:
+    state: PA
+    school_district: Big Spring School District
+    total_pop: 3672
+    poverty_pop: 406
+- model: school_districts.schooldistrict
+  pk: 282
+  fields:
+    state: PA
+    school_district: Blackhawk School District
+    total_pop: 2788
+    poverty_pop: 187
+- model: school_districts.schooldistrict
+  pk: 283
+  fields:
+    state: PA
+    school_district: Blacklick Valley School District
+    total_pop: 704
+    poverty_pop: 106
+- model: school_districts.schooldistrict
+  pk: 284
+  fields:
+    state: PA
+    school_district: Blairsville-Saltsburg School District
+    total_pop: 1632
+    poverty_pop: 277
+- model: school_districts.schooldistrict
+  pk: 285
+  fields:
+    state: PA
+    school_district: Bloomsburg Area School District
+    total_pop: 1835
+    poverty_pop: 278
+- model: school_districts.schooldistrict
+  pk: 286
+  fields:
+    state: PA
+    school_district: Blue Mountain School District
+    total_pop: 3144
+    poverty_pop: 264
+- model: school_districts.schooldistrict
+  pk: 287
+  fields:
+    state: PA
+    school_district: Blue Ridge School District
+    total_pop: 958
+    poverty_pop: 174
+- model: school_districts.schooldistrict
+  pk: 288
+  fields:
+    state: PA
+    school_district: Boyertown Area School District
+    total_pop: 8275
+    poverty_pop: 461
+- model: school_districts.schooldistrict
+  pk: 289
+  fields:
+    state: PA
+    school_district: Bradford Area School District
+    total_pop: 2597
+    poverty_pop: 590
+- model: school_districts.schooldistrict
+  pk: 290
+  fields:
+    state: PA
+    school_district: Brandywine Heights Area School District
+    total_pop: 1734
+    poverty_pop: 138
+- model: school_districts.schooldistrict
+  pk: 291
+  fields:
+    state: PA
+    school_district: Brentwood Borough School District
+    total_pop: 1370
+    poverty_pop: 225
+- model: school_districts.schooldistrict
+  pk: 292
+  fields:
+    state: PA
+    school_district: Bristol Borough School District
+    total_pop: 1525
+    poverty_pop: 278
+- model: school_districts.schooldistrict
+  pk: 293
+  fields:
+    state: PA
+    school_district: Bristol Township School District
+    total_pop: 7736
+    poverty_pop: 1085
+- model: school_districts.schooldistrict
+  pk: 294
+  fields:
+    state: PA
+    school_district: Brockway Area School District
+    total_pop: 1134
+    poverty_pop: 234
+- model: school_districts.schooldistrict
+  pk: 295
+  fields:
+    state: PA
+    school_district: Brookville Area School District
+    total_pop: 1765
+    poverty_pop: 358
+- model: school_districts.schooldistrict
+  pk: 296
+  fields:
+    state: PA
+    school_district: Brownsville Area School District
+    total_pop: 1680
+    poverty_pop: 469
+- model: school_districts.schooldistrict
+  pk: 297
+  fields:
+    state: PA
+    school_district: Bryn Athyn School District
+    total_pop: 214
+    poverty_pop: 5
+- model: school_districts.schooldistrict
+  pk: 298
+  fields:
+    state: PA
+    school_district: Burgettstown Area School District
+    total_pop: 1300
+    poverty_pop: 128
+- model: school_districts.schooldistrict
+  pk: 299
+  fields:
+    state: PA
+    school_district: Burrell School District
+    total_pop: 1857
+    poverty_pop: 190
+- model: school_districts.schooldistrict
+  pk: 300
+  fields:
+    state: PA
+    school_district: Butler Area School District
+    total_pop: 7264
+    poverty_pop: 1146
+- model: school_districts.schooldistrict
+  pk: 301
+  fields:
+    state: PA
+    school_district: California Area School District
+    total_pop: 1075
+    poverty_pop: 153
+- model: school_districts.schooldistrict
+  pk: 302
+  fields:
+    state: PA
+    school_district: Cambria Heights School District
+    total_pop: 1470
+    poverty_pop: 139
+- model: school_districts.schooldistrict
+  pk: 303
+  fields:
+    state: PA
+    school_district: Cameron County School District
+    total_pop: 611
+    poverty_pop: 145
+- model: school_districts.schooldistrict
+  pk: 304
+  fields:
+    state: PA
+    school_district: Camp Hill School District
+    total_pop: 1479
+    poverty_pop: 50
+- model: school_districts.schooldistrict
+  pk: 305
+  fields:
+    state: PA
+    school_district: Canon-McMillan School District
+    total_pop: 6110
+    poverty_pop: 426
+- model: school_districts.schooldistrict
+  pk: 306
+  fields:
+    state: PA
+    school_district: Canton Area School District
+    total_pop: 1014
+    poverty_pop: 178
+- model: school_districts.schooldistrict
+  pk: 307
+  fields:
+    state: PA
+    school_district: Carbondale Area School District
+    total_pop: 1868
+    poverty_pop: 523
+- model: school_districts.schooldistrict
+  pk: 308
+  fields:
+    state: PA
+    school_district: Carlisle Area School District
+    total_pop: 6077
+    poverty_pop: 766
+- model: school_districts.schooldistrict
+  pk: 309
+  fields:
+    state: PA
+    school_district: Carlynton School District
+    total_pop: 1693
+    poverty_pop: 309
+- model: school_districts.schooldistrict
+  pk: 310
+  fields:
+    state: PA
+    school_district: Carmichaels Area School District
+    total_pop: 1031
+    poverty_pop: 215
+- model: school_districts.schooldistrict
+  pk: 311
+  fields:
+    state: PA
+    school_district: Catasauqua Area School District
+    total_pop: 1753
+    poverty_pop: 302
+- model: school_districts.schooldistrict
+  pk: 312
+  fields:
+    state: PA
+    school_district: Centennial School District
+    total_pop: 6435
+    poverty_pop: 557
+- model: school_districts.schooldistrict
+  pk: 313
+  fields:
+    state: PA
+    school_district: Central Bucks School District
+    total_pop: 19810
+    poverty_pop: 715
+- model: school_districts.schooldistrict
+  pk: 314
+  fields:
+    state: PA
+    school_district: Central Cambria School District
+    total_pop: 1827
+    poverty_pop: 166
+- model: school_districts.schooldistrict
+  pk: 315
+  fields:
+    state: PA
+    school_district: Central Columbia School District
+    total_pop: 2156
+    poverty_pop: 195
+- model: school_districts.schooldistrict
+  pk: 316
+  fields:
+    state: PA
+    school_district: Central Dauphin School District
+    total_pop: 16503
+    poverty_pop: 2517
+- model: school_districts.schooldistrict
+  pk: 317
+  fields:
+    state: PA
+    school_district: Central Fulton School District
+    total_pop: 925
+    poverty_pop: 193
+- model: school_districts.schooldistrict
+  pk: 318
+  fields:
+    state: PA
+    school_district: Central Greene School District
+    total_pop: 1798
+    poverty_pop: 302
+- model: school_districts.schooldistrict
+  pk: 319
+  fields:
+    state: PA
+    school_district: Central Valley School District
+    total_pop: 2567
+    poverty_pop: 230
+- model: school_districts.schooldistrict
+  pk: 320
+  fields:
+    state: PA
+    school_district: Central York School District
+    total_pop: 6622
+    poverty_pop: 567
+- model: school_districts.schooldistrict
+  pk: 321
+  fields:
+    state: PA
+    school_district: Chambersburg Area School District
+    total_pop: 11318
+    poverty_pop: 1292
+- model: school_districts.schooldistrict
+  pk: 322
+  fields:
+    state: PA
+    school_district: Charleroi School District
+    total_pop: 1637
+    poverty_pop: 320
+- model: school_districts.schooldistrict
+  pk: 323
+  fields:
+    state: PA
+    school_district: Chartiers Valley School District
+    total_pop: 3895
+    poverty_pop: 395
+- model: school_districts.schooldistrict
+  pk: 324
+  fields:
+    state: PA
+    school_district: Chartiers-Houston School District
+    total_pop: 1392
+    poverty_pop: 152
+- model: school_districts.schooldistrict
+  pk: 325
+  fields:
+    state: PA
+    school_district: Cheltenham School District
+    total_pop: 5537
+    poverty_pop: 514
+- model: school_districts.schooldistrict
+  pk: 326
+  fields:
+    state: PA
+    school_district: Chester-Upland School District
+    total_pop: 7005
+    poverty_pop: 2361
+- model: school_districts.schooldistrict
+  pk: 327
+  fields:
+    state: PA
+    school_district: Chestnut Ridge School District
+    total_pop: 1486
+    poverty_pop: 212
+- model: school_districts.schooldistrict
+  pk: 328
+  fields:
+    state: PA
+    school_district: Chichester School District
+    total_pop: 3633
+    poverty_pop: 639
+- model: school_districts.schooldistrict
+  pk: 329
+  fields:
+    state: PA
+    school_district: Clairton City School District
+    total_pop: 861
+    poverty_pop: 374
+- model: school_districts.schooldistrict
+  pk: 330
+  fields:
+    state: PA
+    school_district: Clarion Area School District
+    total_pop: 862
+    poverty_pop: 172
+- model: school_districts.schooldistrict
+  pk: 331
+  fields:
+    state: PA
+    school_district: Clarion-Limestone Area School District
+    total_pop: 954
+    poverty_pop: 143
+- model: school_districts.schooldistrict
+  pk: 332
+  fields:
+    state: PA
+    school_district: Claysburg-Kimmel School District
+    total_pop: 840
+    poverty_pop: 157
+- model: school_districts.schooldistrict
+  pk: 333
+  fields:
+    state: PA
+    school_district: Clearfield Area School District
+    total_pop: 2515
+    poverty_pop: 465
+- model: school_districts.schooldistrict
+  pk: 334
+  fields:
+    state: PA
+    school_district: Coatesville Area School District
+    total_pop: 10259
+    poverty_pop: 1399
+- model: school_districts.schooldistrict
+  pk: 335
+  fields:
+    state: PA
+    school_district: Cocalico School District
+    total_pop: 4552
+    poverty_pop: 277
+- model: school_districts.schooldistrict
+  pk: 336
+  fields:
+    state: PA
+    school_district: Colonial School District
+    total_pop: 7104
+    poverty_pop: 353
+- model: school_districts.schooldistrict
+  pk: 337
+  fields:
+    state: PA
+    school_district: Columbia Borough School District
+    total_pop: 1488
+    poverty_pop: 345
+- model: school_districts.schooldistrict
+  pk: 338
+  fields:
+    state: PA
+    school_district: Commodore Perry School District
+    total_pop: 619
+    poverty_pop: 95
+- model: school_districts.schooldistrict
+  pk: 339
+  fields:
+    state: PA
+    school_district: Conemaugh Township Area School District
+    total_pop: 979
+    poverty_pop: 84
+- model: school_districts.schooldistrict
+  pk: 340
+  fields:
+    state: PA
+    school_district: Conemaugh Valley School District
+    total_pop: 823
+    poverty_pop: 163
+- model: school_districts.schooldistrict
+  pk: 341
+  fields:
+    state: PA
+    school_district: Conestoga Valley School District
+    total_pop: 6384
+    poverty_pop: 754
+- model: school_districts.schooldistrict
+  pk: 342
+  fields:
+    state: PA
+    school_district: Conewago Valley School District
+    total_pop: 4611
+    poverty_pop: 557
+- model: school_districts.schooldistrict
+  pk: 343
+  fields:
+    state: PA
+    school_district: Conneaut School District
+    total_pop: 2536
+    poverty_pop: 430
+- model: school_districts.schooldistrict
+  pk: 344
+  fields:
+    state: PA
+    school_district: Connellsville Area School District
+    total_pop: 4550
+    poverty_pop: 1033
+- model: school_districts.schooldistrict
+  pk: 345
+  fields:
+    state: PA
+    school_district: Conrad Weiser Area School District
+    total_pop: 3154
+    poverty_pop: 257
+- model: school_districts.schooldistrict
+  pk: 346
+  fields:
+    state: PA
+    school_district: Cornell School District
+    total_pop: 712
+    poverty_pop: 149
+- model: school_districts.schooldistrict
+  pk: 347
+  fields:
+    state: PA
+    school_district: Cornwall-Lebanon School District
+    total_pop: 6043
+    poverty_pop: 452
+- model: school_districts.schooldistrict
+  pk: 348
+  fields:
+    state: PA
+    school_district: Corry Area School District
+    total_pop: 2381
+    poverty_pop: 497
+- model: school_districts.schooldistrict
+  pk: 349
+  fields:
+    state: PA
+    school_district: Coudersport Area School District
+    total_pop: 795
+    poverty_pop: 121
+- model: school_districts.schooldistrict
+  pk: 350
+  fields:
+    state: PA
+    school_district: Council Rock School District
+    total_pop: 12182
+    poverty_pop: 412
+- model: school_districts.schooldistrict
+  pk: 351
+  fields:
+    state: PA
+    school_district: Cranberry Area School District
+    total_pop: 1267
+    poverty_pop: 187
+- model: school_districts.schooldistrict
+  pk: 352
+  fields:
+    state: PA
+    school_district: Crawford Central School District
+    total_pop: 3916
+    poverty_pop: 643
+- model: school_districts.schooldistrict
+  pk: 353
+  fields:
+    state: PA
+    school_district: Crestwood School District
+    total_pop: 3411
+    poverty_pop: 261
+- model: school_districts.schooldistrict
+  pk: 354
+  fields:
+    state: PA
+    school_district: Cumberland Valley School District
+    total_pop: 11543
+    poverty_pop: 620
+- model: school_districts.schooldistrict
+  pk: 355
+  fields:
+    state: PA
+    school_district: Curwensville Area School District
+    total_pop: 1123
+    poverty_pop: 188
+- model: school_districts.schooldistrict
+  pk: 356
+  fields:
+    state: PA
+    school_district: Dallas School District
+    total_pop: 3048
+    poverty_pop: 283
+- model: school_districts.schooldistrict
+  pk: 357
+  fields:
+    state: PA
+    school_district: Dallastown Area School District
+    total_pop: 7436
+    poverty_pop: 548
+- model: school_districts.schooldistrict
+  pk: 358
+  fields:
+    state: PA
+    school_district: Daniel Boone Area School District
+    total_pop: 3880
+    poverty_pop: 252
+- model: school_districts.schooldistrict
+  pk: 359
+  fields:
+    state: PA
+    school_district: Danville Area School District
+    total_pop: 2674
+    poverty_pop: 268
+- model: school_districts.schooldistrict
+  pk: 360
+  fields:
+    state: PA
+    school_district: Deer Lakes School District
+    total_pop: 1967
+    poverty_pop: 150
+- model: school_districts.schooldistrict
+  pk: 361
+  fields:
+    state: PA
+    school_district: Delaware Valley School District
+    total_pop: 4309
+    poverty_pop: 470
+- model: school_districts.schooldistrict
+  pk: 362
+  fields:
+    state: PA
+    school_district: Derry Area School District
+    total_pop: 2162
+    poverty_pop: 377
+- model: school_districts.schooldistrict
+  pk: 363
+  fields:
+    state: PA
+    school_district: Derry Township School District
+    total_pop: 4405
+    poverty_pop: 248
+- model: school_districts.schooldistrict
+  pk: 364
+  fields:
+    state: PA
+    school_district: Donegal School District
+    total_pop: 3581
+    poverty_pop: 291
+- model: school_districts.schooldistrict
+  pk: 365
+  fields:
+    state: PA
+    school_district: Dover Area School District
+    total_pop: 3793
+    poverty_pop: 360
+- model: school_districts.schooldistrict
+  pk: 366
+  fields:
+    state: PA
+    school_district: Downingtown Area School District
+    total_pop: 14811
+    poverty_pop: 412
+- model: school_districts.schooldistrict
+  pk: 367
+  fields:
+    state: PA
+    school_district: DuBois Area School District
+    total_pop: 4586
+    poverty_pop: 880
+- model: school_districts.schooldistrict
+  pk: 368
+  fields:
+    state: PA
+    school_district: Dunmore School District
+    total_pop: 1886
+    poverty_pop: 223
+- model: school_districts.schooldistrict
+  pk: 369
+  fields:
+    state: PA
+    school_district: Duquesne City School District
+    total_pop: 906
+    poverty_pop: 429
+- model: school_districts.schooldistrict
+  pk: 370
+  fields:
+    state: PA
+    school_district: East Allegheny School District
+    total_pop: 1836
+    poverty_pop: 450
+- model: school_districts.schooldistrict
+  pk: 371
+  fields:
+    state: PA
+    school_district: East Lycoming School District
+    total_pop: 1707
+    poverty_pop: 201
+- model: school_districts.schooldistrict
+  pk: 372
+  fields:
+    state: PA
+    school_district: East Penn School District
+    total_pop: 9619
+    poverty_pop: 617
+- model: school_districts.schooldistrict
+  pk: 373
+  fields:
+    state: PA
+    school_district: East Pennsboro Area School District
+    total_pop: 3040
+    poverty_pop: 306
+- model: school_districts.schooldistrict
+  pk: 374
+  fields:
+    state: PA
+    school_district: East Stroudsburg Area School District
+    total_pop: 6734
+    poverty_pop: 1044
+- model: school_districts.schooldistrict
+  pk: 375
+  fields:
+    state: PA
+    school_district: Erie City School District
+    total_pop: 14207
+    poverty_pop: 4760

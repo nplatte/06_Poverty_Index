@@ -15,6 +15,11 @@ def state_map(request):
     context = state.map
     return JsonResponse(context)
 
+def state_data(request):
+    school_districts = SchoolDistrict.objects.get(state="PA")
+    context={"schools": school_districts}
+    return JsonResponse(context)
+
 def upload_data_view(request):
     context = {"form": DistrictDataUploadForm()}
     if request.method == "POST":
