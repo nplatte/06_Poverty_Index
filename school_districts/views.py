@@ -16,10 +16,8 @@ def state_map(request):
     return JsonResponse(context)
 
 def state_data(request):
-    school_districts = SchoolDistrict.objects.get(state="PA")
-    for d in school_districts:
-        print(d)
-    context={}
+    school_districts = SchoolDistrict.objects.filter(state="PA")
+    context = {d.school_district : [d.total_pop, d.poverty_pop] for d in school_districts}
     return JsonResponse(context)
 
 def upload_data_view(request):

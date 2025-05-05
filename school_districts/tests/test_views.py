@@ -81,3 +81,16 @@ class TestUploadData(TestCase):
         }
         self.client.post(self.url, file_data)
         self.assertGreater(SchoolDistrict.objects.count(), old_count)
+
+
+class TestStateData(TestCase):
+
+    fixtures = ["pov_data"]
+
+    def setUp(self):
+        self.url = reverse("get_state_data")
+        return super().setUp()
+    
+    def test_GET_returns_JSON(self):
+        response = self.client.get(self.url)
+        self.assertEqual(response.status_code, 200)
