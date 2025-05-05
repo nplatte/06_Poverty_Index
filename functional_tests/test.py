@@ -8,7 +8,7 @@ from os import getcwd
 
 class TestBasicPovertyMap(StaticLiveServerTestCase):
 
-    fixtures = ["states"]
+    fixtures = ["states", "pov_data"]
 
     def setUp(self):
         self.url = f"{self.live_server_url}{reverse('school_poverty_state_view')}"
@@ -25,6 +25,7 @@ class TestBasicPovertyMap(StaticLiveServerTestCase):
         pa = StateMap.objects.get(state="PA")
         self.assertEqual(self.browser.title, "PA State Map")
         # check that map exists
+        sleep(5)
         self.browser.find_element(By.ID, "State-Map")
 
 

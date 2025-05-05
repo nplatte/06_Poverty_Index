@@ -1,5 +1,6 @@
 import { select } from 'https://esm.sh/d3-selection';
 import { geoPath, geoEquirectangular } from 'https://esm.sh/d3-geo';
+import { scaleLinear } from 'https://esm.sh/d3-scale';
 
 const width = 800, height = 600;
 
@@ -13,10 +14,13 @@ function rewind(geo) {
     }
   }
 
-function displayMap(geoData) {
+function displayMap(geoData, districtData) {
     var map = select("svg")
         .attr("width", width)
         .attr("height", height);
+    const colorScale = scaleLinear()
+    .domain([0, 1])
+    .range(["white", "red"]);
 
     let projection = geoEquirectangular();
     let geoGenerator = geoPath().projection(projection);
@@ -28,8 +32,32 @@ function displayMap(geoData) {
         .data(geoData.features)
         .join("path")
         .attr("d", path)
-        .attr("fill", "white")
+        .attr("fill", d => {
+            console.log(d)
+            const name = d.properties.name;
+            const rate = (districtData[name][1]/districtData[name][0]);
+            console.log(rate)
+            return colorScale(rate) 
+        })
         .attr("stroke", "black")
+}
+
+function getData(map_data) {
+    var map = 0;
+    fetch('/schools/PA/data')
+        .then(response => {
+            if (!response.ok) {  
+                throw new Error("bad")
+            }
+            return response.json();
+        })
+        .then(data => {
+            displayMap(map_data, data)
+        })
+        .catch(error => {
+            console.log(error)
+        })
+    return map;
 }
 
 function getMap() {
@@ -42,7 +70,7 @@ function getMap() {
             return response.json();
         })
         .then(data => {
-            displayMap(data)
+            getData(data)
         })
         .catch(error => {
             console.log(error)

@@ -7,7 +7,7 @@
       features:
       - type: Feature
         properties:
-          name: '1'
+          name: 'Allegheny Valley School District'
         geometry:
           type: Polygon
           coordinates:
