@@ -11,7 +11,7 @@ class TestStateView(TestCase):
     fixtures = ["states"]
 
     def setUp(self):
-        self.url = reverse("school_poverty_state_view")
+        self.url = reverse("view_state_map")
         return super().setUp()
     
     def tearDown(self):
@@ -32,7 +32,7 @@ class TestGETStateMap(TestCase):
     fixtures = ["test_states"]
 
     def setUp(self):
-        self.response = self.client.get(reverse("state_map"))
+        self.response = self.client.get(reverse("get_state_map"))
         return super().setUp()
     
     def tearDown(self):
@@ -71,7 +71,7 @@ class TestUploadData(TestCase):
             'state_data': SimpleUploadedFile(ofile.name, ofile.read())
         }
         response = self.client.post(self.url, file_data)
-        self.assertRedirects(response, reverse("school_poverty_state_view"))
+        self.assertRedirects(response, reverse("view_state_map"))
 
     def test_valid_POST_makes_StateMap(self):
         old_count = SchoolDistrict.objects.count()

@@ -20,14 +20,18 @@ def state_data(request):
     context = {d.school_district : [d.total_pop, d.poverty_pop] for d in school_districts}
     return JsonResponse(context)
 
-def upload_data_view(request):
+def upload_data(request):
     context = {"form": DistrictDataUploadForm()}
     if request.method == "POST":
         filled = DistrictDataUploadForm(request.POST, request.FILES)
         if filled.is_valid():
             map_file_to_model(request.FILES["state_data"])
-            return redirect(reverse("school_poverty_state_view"))
+            return redirect(reverse("view_state_map"))
     return render(request, "data.html", context)
+
+def upload_map(request):
+    context = {}
+    return render(request, "map.html", context)
 
 def map_file_to_model(file_data):
     data = pd.read_excel(file_data)
