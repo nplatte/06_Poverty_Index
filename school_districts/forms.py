@@ -8,3 +8,12 @@ class DistrictDataUploadForm(forms.Form):
             attrs = {
                 'id' : 'file-upload'
             }))
+    
+
+class MapDataUploadForm(forms.Form):
+
+    map_data = forms.FileField(
+        widget = forms.FileInput(
+            attrs = {
+                'id' : 'file-upload'
+            }))

@@ -2,7 +2,7 @@ from django.shortcuts import render, redirect
 from school_districts.models import StateMap, SchoolDistrict
 from django.http import JsonResponse
 from django.urls import reverse
-from school_districts.forms import DistrictDataUploadForm
+from school_districts.forms import DistrictDataUploadForm, MapDataUploadForm
 import pandas as pd
 
 def state_view(request):
@@ -30,8 +30,12 @@ def upload_data(request):
     return render(request, "data.html", context)
 
 def upload_map(request):
-    context = {}
-    return render(request, "map.html", context)
+    context = {"form": MapDataUploadForm()}
+    if request.method == "POST":
+        filled = MapDataUploadForm(request.POST, request.FILES)
+        if filled.is_valid():
+            return redirect(reverse("view_state_map"))
+    return render(request, "data.html", context)
 
 def map_file_to_model(file_data):
     data = pd.read_excel(file_data)
