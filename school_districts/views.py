@@ -4,6 +4,7 @@ from django.http import JsonResponse
 from django.urls import reverse
 from school_districts.forms import DistrictDataUploadForm, MapDataUploadForm
 import pandas as pd
+import json
 
 def state_view(request):
     context = {}
@@ -34,6 +35,7 @@ def upload_map(request):
     if request.method == "POST":
         filled = MapDataUploadForm(request.POST, request.FILES)
         if filled.is_valid():
+            make_new_map(request.FILES["map_data"])
             return redirect(reverse("view_state_map"))
     return render(request, "data.html", context)
 
@@ -47,3 +49,11 @@ def map_file_to_model(file_data):
             poverty_pop=row["Unnamed: 6"]
         )
         new.save()
+
+def make_new_map(json_data):
+    data = json.loads(json_data.read())
+    new = StateMap.objects.create(
+        state="PA",
+        map=data
+    )
+    new.save()
