@@ -2,7 +2,7 @@ import { select } from 'https://esm.sh/d3-selection';
 import { geoPath, geoEquirectangular } from 'https://esm.sh/d3-geo';
 import { scaleLinear } from 'https://esm.sh/d3-scale';
 
-const width = 800, height = 600;
+const width = 800, height = 600
 
 function rewind(geo) {
     {
@@ -15,31 +15,33 @@ function rewind(geo) {
   }
 
 function displayMap(geoData, districtData) {
-    var map = select("svg")
+    const colorScale = scaleLinear()
+        .domain([0, .5])
+        .range(["white", "red"]);
+    select("svg")
         .attr("width", width)
         .attr("height", height);
-    const colorScale = scaleLinear()
-    .domain([0, 1])
-    .range(["white", "red"]);
+    geoData = rewind(geoData);    
+    let projection = geoEquirectangular()
+        .fitSize([width, height], geoData);
+    let geoGenerator = geoPath()
+        .projection(projection)
 
-    let projection = geoEquirectangular();
-    let geoGenerator = geoPath().projection(projection);
-    geoData = rewind(geoData);
-    projection.fitExtent([[0, 0], [width, height]], geoData)
-    let path = geoGenerator(geoData);
-
-    map.selectAll("path")
+    let u = select('#content g.map')
+        .selectAll('path')
         .data(geoData.features)
-        .join("path")
-        .attr("d", path)
-        .attr("fill", d => {
-            console.log(d)
-            const name = d.properties.name;
-            const rate = (districtData[name][1]/districtData[name][0]);
-            console.log(rate)
-            return colorScale(rate) 
-        })
+    u.enter()
+        .append("path")
+        .attr('d', geoGenerator)
         .attr("stroke", "black")
+        .attr("fill", function(d) {
+            const name = d.properties.NAME;
+            const total_poverty = districtData[name]?.[1] ?? 0;
+            const total_pop = districtData[name]?.[0] ?? 1;
+            const rate = (total_poverty/total_pop);
+            var c = colorScale(rate);
+            return c
+        })
 }
 
 function getData(map_data) {
